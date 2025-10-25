@@ -17,6 +17,11 @@ cp -f ${GITHUB_WORKSPACE}/patch/T4/fix-CPU-information.patch patch/kernel/archiv
 cp -f ${GITHUB_WORKSPACE}/patch/T4/t4.patch patch/kernel/archive/rockchip64-6.18/
 cp -f ${GITHUB_WORKSPACE}/patch/T4/t4.patch patch/kernel/archive/rockchip64-6.12/
 
+#Nano3399 Patches
+echo "Copying Nano3399 patches..."
+cp -f ${GITHUB_WORKSPACE}/patch/T4/add-new-board-nano-3399-defconfig.path patch/u-boot/
+cp -f ${GITHUB_WORKSPACE}/patch/T4/dt patch/kernel/rockchip64-6.12/dt/
+
 # 5C Patches
 echo "Copying 5C patches..."
 cp -f ${GITHUB_WORKSPACE}/patch/5C/reopen_disabled_nodes.patch patch/u-boot/legacy/u-boot-radxa-rk35xx/board_rock-5c/
