@@ -5,7 +5,7 @@ BOARD_MAINTAINER=""
 BOOTCONFIG="nanopc-t4-rk3399_defconfig"
 KERNEL_TARGET="legacy,current,edge"
 KERNEL_TEST_TARGET="legacy"
-KERNEL_MAJOR_MINOR="6.1"
+KERNEL_MAJOR_MINOR="6.6"
 FULL_DESKTOP="yes"
 ASOUND_STATE="asound.state.rt5651"
 BOOT_LOGO="desktop"
@@ -13,14 +13,14 @@ BOOT_FDT_FILE="rockchip/rk3399-nanopc-t4.dtb"
 BOOT_SCENARIO="blobless"
 SRC_EXTLINUX="yes"
 SRC_CMDLINE="console=ttyS2,1500000 console=tty0"
-###¾µÏñµØÖ·
+###é•œåƒåœ°å€
 MAINLINE_MIRROR="tuna"
 DOWNLOAD_MIRROR="china"
-##Armbian¹úÄÚ
+##Armbianå›½å†…
 ARMBIAN_MIRROR="https://mirrors.tuna.tsinghua.edu.cn/armbian"
-##¾µÏñÊä³öÑ¹Ëõ
+##é•œåƒè¾“å‡ºå‹ç¼©
 COMPRESS_OUTPUTIMAGE="xz"
-#°²×°ÄÚºËÍ·
+#å®‰è£…å†…æ ¸å¤´
 INSTALL_HEADERS="yes"
-#¶³½áÄÚºË
+#å†»ç»“å†…æ ¸
 BSPFREEZE="yes"
