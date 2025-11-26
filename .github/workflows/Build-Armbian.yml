@@ -25,6 +25,7 @@ on:
         type: choice
         options:
           - 'current'
+          - 'legacy'
           - 'edge'
           - 'vendor'
       RELEASE:
